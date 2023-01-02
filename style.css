@@ -1,0 +1,30 @@
+* {
+    margin-right: 10px;
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: left;
+    justify-content: space-between;
+}
+.container :first-child {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+.container :nth-child(2) {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+.container :nth-child(3) {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
